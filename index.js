@@ -11,7 +11,7 @@
 // const mouse1 = document.getElementById("mouse1");
 // const cursor = document.getElementById("cursor");
 
-const cursors = document.querySelectorAll(".mouse");
+const cursors = document.querySelectorAll(".mouses");
 
 window.addEventListener("mousemove", (e) => {
   for (const cursor of cursors) {
